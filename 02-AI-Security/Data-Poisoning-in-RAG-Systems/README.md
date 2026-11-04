@@ -17,7 +17,7 @@ A própria tarefa diferencia os dados usados para treinar um modelo daqueles que
 
 **Como chegar à resposta:** localizar na Task 2 a explicação de *training data poisoning* e observar que o ataque acontece nos dados de treinamento, antes do uso normal do modelo.
 
-**Resposta:** \`Training Data\`
+**Resposta:** `Training Data`
 
 ![alt text](images/image-1.png)
 ## 2. Embeddings e bancos vetoriais — Task 3
@@ -32,7 +32,7 @@ Se alguém adiciona muitos documentos parecidos sobre o mesmo assunto, esses doc
 
 **Como chegar:** na parte sobre técnicas de *corpus poisoning*, identificar a descrição de vários documentos controlados pelo atacante concentrados em uma região semântica.
 
-**Resposta:** \`Corpus Flooding\`
+**Resposta:** `Corpus Flooding`
 
 ![alt text](images/image-2.png)
 
@@ -44,7 +44,7 @@ Aqui a diferença está na camada atingida. O modelo-base não precisa ser modif
 
 **Como chegar:** comparar, na Task 3, as camadas de treinamento, corpus e embeddings; procurar a técnica descrita como manipulação da representação vetorial.
 
-**Resposta:** \`Embedding-Level Poisoning\`
+**Resposta:** `Embedding-Level Poisoning`
 
 ![alt text](images/image-3.png)
 
@@ -56,7 +56,7 @@ Um documento malicioso também pode ser escrito para parecer um procedimento leg
 
 **Como chegar:** procurar na lista de técnicas a que descreve a imitação do estilo e da estrutura de materiais confiáveis.
 
-**Resposta:** \`Semantic Mimicry\`
+**Resposta:** `Semantic Mimicry`
 
 ![alt text](images/image-4.png)
 
@@ -72,7 +72,7 @@ A pergunta descreve exatamente o fluxo de entrada e processamento dos documentos
 
 **Como chegar:** acompanhar o fluxo de documentos apresentado no início da Task 4.
 
-**Resposta:** \`Ingestion Pipeline\`
+**Resposta:** `Ingestion Pipeline`
 
 ![alt text](images/image-5.png)
 
@@ -84,7 +84,7 @@ O estudo de caso mostra o risco de confiar automaticamente em conteúdo externo.
 
 **Como chegar:** ler o caso de 2021 apresentado na tarefa e identificar o que a automação baixou dos repositórios.
 
-**Resposta:** \`Malicious Packages\`
+**Resposta:** `Malicious Packages`
 
 ![alt text](images/image-6.png)
 ## 4. Impactos no comportamento — Task 5
@@ -99,7 +99,7 @@ O enunciado fala de mudanças pequenas e graduais. A pista está no contraste qu
 
 **Como chegar:** localizar a seção *Subtle Poisoning Effects* e comparar com os exemplos de alterações evidentes.
 
-**Resposta:** \`Subtle\`
+**Resposta:** `Subtle`
 
 ![alt text](images/image-7.png)
 
@@ -111,7 +111,7 @@ O sistema pode continuar disponível mesmo quando os dados utilizados por ele es
 
 **Como chegar:** observar no exemplo da tarefa que a infraestrutura permanece funcionando, enquanto as informações utilizadas pelo sistema foram alteradas.
 
-**Resposta:** \`Data\`
+**Resposta:** `Data`
 
 ![alt text](images/image-8.png)
 ## 5. Detecção e mitigação — Task 6
@@ -126,7 +126,7 @@ Se as respostas mudam aos poucos, analisar apenas uma interação pode não reve
 
 **Como chegar:** procurar na Task 6 a parte sobre mudanças graduais nas saídas do modelo e o monitoramento utilizado para acompanhá-las.
 
-**Resposta:** \`Behavioural Monitoring\`
+**Resposta:** `Behavioural Monitoring`
 
 ![alt text](images/image-9.png)
 ### Pergunta 2 — Estudo de caso da Amazon
@@ -137,7 +137,7 @@ A tarefa usa avaliações falsas como exemplo de manipulação de informações 
 
 **Como chegar:** encontrar o estudo de caso da Amazon na Task 6 e anotar a quantidade aproximada mencionada no texto.
 
-**Resposta:** \`250 million\`
+**Resposta:** `250 million`
 
 ![alt text](images/image-10.png)
 
@@ -187,7 +187,7 @@ O detalhe importante aqui é que não estamos mudando o modelo ou seu treinament
 
 O elemento alterado no exercício é o documento que o assistente usa para consultar a política. Não houve necessidade de modificar os pesos do modelo ou seu código.
 
-**Resposta:** \`Reference Material\`
+**Resposta:** `Reference Material`
 
 ### Pergunta 2 — Qual foi a classe do ataque?
 
@@ -195,7 +195,7 @@ O elemento alterado no exercício é o documento que o assistente usa para consu
 
 Como a alteração foi realizada nos dados de referência confiados pelo sistema, o caso se enquadra em envenenamento de dados.
 
-**Resposta:** \`Data Poisoning\`
+**Resposta:** `Data Poisoning`
 
 ## 7. Conclusão — Task 8
 
@@ -207,15 +207,15 @@ O exercício com o agente ajuda a visualizar essa diferença, porque permite com
 
 | Task | Resposta |
 |---|---|
-| 2 | \`Training Data\` |
-| 3.1 | \`Corpus Flooding\` |
-| 3.2 | \`Embedding-Level Poisoning\` |
-| 3.3 | \`Semantic Mimicry\` |
-| 4.1 | \`Ingestion Pipeline\` |
-| 4.2 | \`Malicious Packages\` |
-| 5.1 | \`Subtle\` |
-| 5.2 | \`Data\` |
-| 6.1 | \`Behavioural Monitoring\` |
-| 6.2 | \`250 million\` |
-| 7.1 | \`Reference Material\` |
-| 7.2 | \`Data Poisoning\` |
+| 2 | `Training Data` |
+| 3.1 | `Corpus Flooding` |
+| 3.2 | `Embedding-Level Poisoning` |
+| 3.3 | `Semantic Mimicry` |
+| 4.1 | `Ingestion Pipeline` |
+| 4.2 | `Malicious Packages` |
+| 5.1 | `Subtle` |
+| 5.2 | `Data` |
+| 6.1 | `Behavioural Monitoring` |
+| 6.2 | `250 million` |
+| 7.1 | `Reference Material` |
+| 7.2 | `Data Poisoning` |
