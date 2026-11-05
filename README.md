@@ -18,17 +18,6 @@ Laboratórios sobre segurança de inteligência artificial, análise de comporta
 
 - [Data Poisoning in RAG Systems](02-AI-Security/Data-Poisoning-in-RAG-Systems/README.md) — Envenenamento de dados em sistemas RAG
 
-## 💻 Penetration Tester
-
-Estudos de reconhecimento, enumeração e identificação de vulnerabilidades em ambientes de laboratório.
-
-📁 [Acessar laboratórios de Penetration Tester](03-Penetration-Tester/)
-
-## ⚙️ Security Engineer
-
-Laboratórios de configuração, infraestrutura e proteção de sistemas.
-
-📁 [Acessar laboratórios de Security Engineer](04-Security-Engineer/)
 
 ---
 
