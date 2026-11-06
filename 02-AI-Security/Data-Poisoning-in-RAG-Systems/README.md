@@ -19,7 +19,8 @@ A própria tarefa diferencia os dados usados para treinar um modelo daqueles que
 
 **Resposta:** `Training Data`
 
-![alt text](images/image-1.png)
+![Task 2 — exemplo sobre envenenamento de dados de treinamento](images/image-1.png)
+
 ## 2. Embeddings e bancos vetoriais — Task 3
 
 Um sistema RAG pode transformar documentos em representações numéricas (*embeddings*) e pesquisar os mais próximos de uma pergunta. A proximidade matemática não garante que o conteúdo seja confiável.
@@ -34,7 +35,7 @@ Se alguém adiciona muitos documentos parecidos sobre o mesmo assunto, esses doc
 
 **Resposta:** `Corpus Flooding`
 
-![alt text](images/image-2.png)
+![Task 3 — demonstração de Corpus Flooding](images/image-2.png)
 
 ### Pergunta 2 — Alteração da representação vetorial
 
@@ -46,7 +47,7 @@ Aqui a diferença está na camada atingida. O modelo-base não precisa ser modif
 
 **Resposta:** `Embedding-Level Poisoning`
 
-![alt text](images/image-3.png)
+![Task 3 — demonstração de Embedding-Level Poisoning](images/image-3.png)
 
 ### Pergunta 3 — Imitando documentos confiáveis
 
@@ -58,7 +59,7 @@ Um documento malicioso também pode ser escrito para parecer um procedimento leg
 
 **Resposta:** `Semantic Mimicry`
 
-![alt text](images/image-4.png)
+![Task 3 — demonstração de Semantic Mimicry](images/image-4.png)
 
 ## 3. Ataques ao pipeline de ingestão — Task 4
 
@@ -74,7 +75,7 @@ A pergunta descreve exatamente o fluxo de entrada e processamento dos documentos
 
 **Resposta:** `Ingestion Pipeline`
 
-![alt text](images/image-5.png)
+![Task 4 — identificação do pipeline de ingestão](images/image-5.png)
 
 ### Pergunta 2 — Caso de dependency confusion
 
@@ -86,7 +87,8 @@ O estudo de caso mostra o risco de confiar automaticamente em conteúdo externo.
 
 **Resposta:** `Malicious Packages`
 
-![alt text](images/image-6.png)
+![Task 4 — estudo de caso de Dependency Confusion](images/image-6.png)
+
 ## 4. Impactos no comportamento — Task 5
 
 Nem todo ataque provoca erro, travamento ou uma resposta claramente absurda. Em alguns casos, o sistema continua respondendo normalmente, mas as recomendações começam a mudar.
@@ -101,7 +103,7 @@ O enunciado fala de mudanças pequenas e graduais. A pista está no contraste qu
 
 **Resposta:** `Subtle`
 
-![alt text](images/image-7.png)
+![Task 5 — observação de alterações graduais no comportamento](images/image-7.png)
 
 ### Pergunta 2 — O que foi corrompido?
 
@@ -113,7 +115,8 @@ O sistema pode continuar disponível mesmo quando os dados utilizados por ele es
 
 **Resposta:** `Data`
 
-![alt text](images/image-8.png)
+![Task 5 — exemplo de integridade dos dados comprometida](images/image-8.png)
+
 ## 5. Detecção e mitigação — Task 6
 
 Uma das dificuldades de identificar *data poisoning* é que o conteúdo manipulado pode parecer legítimo. Por isso, além de validar a origem dos documentos, faz sentido comparar respostas ao longo do tempo e revisar alterações importantes na base.
@@ -128,7 +131,8 @@ Se as respostas mudam aos poucos, analisar apenas uma interação pode não reve
 
 **Resposta:** `Behavioural Monitoring`
 
-![alt text](images/image-9.png)
+![Task 6 — monitoramento de mudanças em respostas](images/image-9.png)
+
 ### Pergunta 2 — Estudo de caso da Amazon
 
 **Pergunta:** In the Amazon fake reviews case study, approximately how many suspected fake reviews did Amazon report blocking before publication in 2023–2024?
@@ -139,7 +143,7 @@ A tarefa usa avaliações falsas como exemplo de manipulação de informações 
 
 **Resposta:** `250 million`
 
-![alt text](images/image-10.png)
+![Task 6 — referência ao estudo de caso de avaliações falsas](images/image-10.png)
 
 ## 6. Exercício prático — Task 7
 
@@ -156,7 +160,7 @@ Esta parte é a que vale mais a pena documentar com prints. A proposta é compar
 
 - Política de senhas antes da alteração: *[According to the Password Reset Policy, employees must reset passwords every 90 days. Passwords must be at least 12 characters long and include uppercase letters, lowercase letters, numbers, and one special character. Resets are handled by the IT Help Desk at helpdesk.papertrail.internal, and identity verification is done via employee ID and a one-time code sent to the registered mobile number. Shared accounts are not permitted.]*
 
-![alt text](images/image-11.png)
+![Task 7 — resposta inicial do assistente antes da alteração](images/image-11.png)
 
 ### Etapa 2 — Atualizar o documento de referência
 
@@ -166,7 +170,7 @@ Esta parte é a que vale mais a pena documentar com prints. A proposta é compar
 
 O detalhe importante aqui é que não estamos mudando o modelo ou seu treinamento: estamos alterando um conteúdo que ele utiliza como referência.
 
-![alt text](images/image-12.png)
+![Task 7 — envio do material de referência atualizado](images/image-12.png)
 
 ### Etapa 3 — Repetir as perguntas
 
@@ -179,7 +183,7 @@ O detalhe importante aqui é que não estamos mudando o modelo ou seu treinament
 - Política de senhas depois da alteração: *[According to the revised Password Reset Policy, employees must reset passwords every 180 days. Passwords must be at least 8 characters long and include both uppercase and lowercase letters. The requirements for special characters and numbers have been removed. Password resets are handled through the self-service portal at passwords.papertrail.external, with authentication using only email addresses. The previous employee ID and mobile verification steps have been deprecated.]*
 
 
-![alt text](images/image-13.png)
+![Task 7 — resposta do assistente após alteração da referência](images/image-13.png)
 
 ### Pergunta 1 — O que foi modificado?
 
