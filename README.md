@@ -1,25 +1,24 @@
-# 🔎 TryHackMe — Laboratórios e Write-ups
+# 🔎 Laboratórios e Write-ups de Cibersegurança
 
-Portfólio de estudos práticos de cibersegurança, com **evidências, explicações técnicas e aprendizados** extraídos de laboratórios autorizados da [TryHackMe](https://tryhackme.com/).
+Portfólio de **estudos práticos de segurança da informação** em ambientes autorizados, com metodologia, evidências, análise dos resultados e aprendizados.
 
-**Direção profissional:** Blue Team / SOC N1. Também documento assuntos complementares quando contribuem para compreender ameaças e mecanismos de defesa.
+**Foco profissional:** Blue Team / SOC N1, com estudos complementares em segurança de IA e outras áreas de cibersegurança.
 
-## 📂 Estudos publicados
+## 📂 Laboratórios organizados por área
 
-| Laboratório | Área | Competências demonstradas |
+| Área | O que reúne | Situação |
 |---|---|---|
-| **[Data Poisoning in RAG Systems](02-AI-Security/Data-Poisoning-in-RAG-Systems/README.md)** | AI Security | Análise de envenenamento de dados, comparação de respostas e avaliação de riscos em RAG |
+| **[🛡️ SOC / Blue Team](01-SOC/)** | Triagem de alertas, análise de logs, SIEM e investigação de incidentes | Em preparação |
+| **[🤖 AI Security](02-AI-Security/)** | Segurança de sistemas com IA, ataques e medidas defensivas | **1 laboratório documentado** |
 
-## 🛡️ Próximo foco: Security Operations
-
-Estou desenvolvendo estudos sobre **triagem de alertas, análise de logs, SIEM e resposta a incidentes**. Os write-ups de SOC serão incluídos nesta seção **após a execução e documentação dos respectivos laboratórios**.
+Acesse uma área para visualizar seus **laboratórios e write-ups**. Os novos estudos serão adicionados dentro da área correspondente, sem aumentar a lista no README do perfil.
 
 ## 📝 Padrão de documentação
 
-Cada write-up busca apresentar o **objetivo**, o **ambiente autorizado**, a **metodologia**, as **evidências**, a **interpretação dos resultados** e as **recomendações defensivas**. Capturas de tela são incluídas quando ajudam a demonstrar o procedimento.
+Cada write-up busca apresentar **objetivo, ambiente autorizado, metodologia, evidências, interpretação dos resultados e recomendações defensivas**. Capturas de tela são incluídas quando ajudam a demonstrar o procedimento.
 
-> Os estudos se referem a ambientes de treinamento e não representam avaliações de sistemas reais de terceiros.
+> Os estudos são realizados em ambientes de treinamento e não representam avaliações de sistemas reais de terceiros.
 
 ---
 
-[🏆 Certificações profissionais](https://github.com/danszxx/Certificacoes/tree/main/01-Certificacoes-Profissionais) · [👤 Perfil do GitHub](https://github.com/danszxx)
+[🏆 Certificações e formações](https://github.com/danszxx/Certificacoes) · [👤 Perfil do GitHub](https://github.com/danszxx)
