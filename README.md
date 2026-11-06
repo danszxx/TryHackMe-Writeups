@@ -1,24 +1,25 @@
-# TryHackMe — Write-ups
+# 🔎 TryHackMe — Laboratórios e Write-ups
 
-Documentação dos laboratórios realizados na [TryHackMe](https://tryhackme.com/), organizada por área de cibersegurança.
+Portfólio de estudos práticos de cibersegurança, com **evidências, explicações técnicas e aprendizados** extraídos de laboratórios autorizados da [TryHackMe](https://tryhackme.com/).
 
-O foco principal deste repositório é **Blue Team / SOC**, com estudos complementares em outras áreas.
+**Direção profissional:** Blue Team / SOC N1. Também documento assuntos complementares quando contribuem para compreender ameaças e mecanismos de defesa.
 
-## 🛡️ Security Analyst
+## 📂 Estudos publicados
 
-Estudos de análise de logs, monitoramento, investigação de incidentes e detecção de ameaças.
+| Laboratório | Área | Competências demonstradas |
+|---|---|---|
+| **[Data Poisoning in RAG Systems](02-AI-Security/Data-Poisoning-in-RAG-Systems/README.md)** | AI Security | Análise de envenenamento de dados, comparação de respostas e avaliação de riscos em RAG |
 
-📁 [Acessar laboratórios de Security Analyst](01-Security-Analyst/)
+## 🛡️ Próximo foco: Security Operations
 
-## 🧠 AI Security
+Estou desenvolvendo estudos sobre **triagem de alertas, análise de logs, SIEM e resposta a incidentes**. Os write-ups de SOC serão incluídos nesta seção **após a execução e documentação dos respectivos laboratórios**.
 
-Laboratórios sobre segurança de inteligência artificial, análise de comportamentos suspeitos e proteção de sistemas com IA.
+## 📝 Padrão de documentação
 
-📁 [Acessar laboratórios de AI Security](02-AI-Security/)
+Cada write-up busca apresentar o **objetivo**, o **ambiente autorizado**, a **metodologia**, as **evidências**, a **interpretação dos resultados** e as **recomendações defensivas**. Capturas de tela são incluídas quando ajudam a demonstrar o procedimento.
 
-- [Data Poisoning in RAG Systems](02-AI-Security/Data-Poisoning-in-RAG-Systems/README.md) — Envenenamento de dados em sistemas RAG
-
+> Os estudos se referem a ambientes de treinamento e não representam avaliações de sistemas reais de terceiros.
 
 ---
 
-*Os write-ups serão adicionados conforme os laboratórios forem documentados.*
+[🏆 Certificações profissionais](https://github.com/danszxx/Certificacoes/tree/main/01-Certificacoes-Profissionais) · [👤 Perfil do GitHub](https://github.com/danszxx)
